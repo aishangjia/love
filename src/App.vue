@@ -1,8 +1,6 @@
 <template>
   <div id="app">
     <router-view></router-view>
-
-
     <div id="tab">
         <ul>
              <li><router-link to="/home"><a href=""><i class="fa fa-home"></i>首页</a></router-link></li>

@@ -8,6 +8,10 @@ import Home from './views/Home'
 import Category from './views/Category'
 import Mine from './views/Mine'
 import Shopcar from './views/Shopcar'
+import One from './components/One'
+import Two from './components/Two'
+import Catedetail from './components/Catedetail'
+
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -15,7 +19,11 @@ Vue.use(VueResource)
 
 const routes = [
                  {path: '/home',component:Home},
-                 {path: '/category',component:Category},
+                 {path: '/category',component:Category,children:[
+                   {path:'one',component:One},
+                   {path:'two',component:Two},
+                   {path:'catedetail',component:Catedetail}
+                 ]},
                  {path: '/shopcar',component:Shopcar},
                  {path: '/mine',component:Mine},
                 ]
