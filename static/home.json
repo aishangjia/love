@@ -1,0 +1,292 @@
+{
+  "code": 1000,
+  "data": {
+    "hotSearch": [
+      "花王",
+      "象印",
+      "冈本",
+      "狮王",
+      "膳魔师",
+      "MUJI洗澡刷",
+      "牛栏",
+      "爱他美",
+      "欧缇丽",
+      "欧舒丹",
+      "贝德玛",
+      "春雨面膜",
+      "雅培",
+      "测试"
+    ],
+    "list": [
+      {
+        "sequence": 1,
+        "actInfo": [
+        ],
+        "margin": "",
+        "titleEn": "",
+        "pprd": "23013.1.",
+        "link": "",
+        "pageStyleId": 1,
+        "styleCode": "banner_list",
+        "title": "请输入名称",
+        "list": [
+          {
+            "activityName": "保健品专场",
+            "bannerImg": "https://img.allpyra.com/031e550a-fb50-4a8a-b7a4-7f9365bc7e95.jpg",
+            "actLink": "http://m.asj.com/lp/customer/index.html?actid=1702171548380003#!/index/1702171548380003/1"
+          },
+          {
+            "activityName": "母婴专场",
+            "bannerImg": "https://img.allpyra.com/485d60c5-2556-4966-b4c8-706564c8767e.jpg",
+            "actLink": "http://m.asj.com/lp/customer/index.html?actid=1702171645440019#!/index/1702171645440019/1"
+          },
+          {
+            "activityName": "美妆专场",
+            "bannerImg": "https://img.allpyra.com/90db0b91-99f3-487c-bc5b-285e5da69592.jpg",
+            "actLink": "http://m.asj.com/lp/customer/index.html?actid=1702171629550012#!/index/1702171629550012/1"
+          }
+        ],
+        "linkName": "",
+        "styleTitle": "Banner轮播"
+      },
+      {
+        "sequence": 2,
+        "actInfo": [
+        ],
+        "margin": "2",
+        "titleEn": "",
+        "pprd": "",
+        "link": "",
+        "pageStyleId": 7,
+        "styleCode": "head_category_2",
+        "title": "请输入名称",
+        "list": [
+          {
+            "logoImg": "http://img.allpyra.com/dc2b8375-d4d3-4b7f-9334-7e681c48aeb2.png",
+            "categName": "母婴",
+            "cid": "1"
+          },
+          {
+            "logoImg": "http://img.allpyra.com/bc18d779-5d7a-4289-8615-649f774fddc1.png",
+            "categName": "美妆",
+            "cid": "2"
+          },
+          {
+            "logoImg": "http://img.allpyra.com/b8d147e2-e281-4ea5-bf55-e7200afee4a2.png",
+            "categName": "保健",
+            "cid": "4"
+          },
+          {
+            "logoImg": "http://img.allpyra.com/bd88d75d-0792-488a-b750-8b94c92cb8d9.png",
+            "categName": "食品",
+            "cid": "3"
+          },
+          {
+            "logoImg": "http://img.allpyra.com/9c3ec669-c74a-49de-a002-dfbd9dab1f77.png",
+            "categName": "家居",
+            "cid": "5"
+          },
+          {
+            "logoImg": "http://img.allpyra.com/bc8d7bf0-4b00-424e-904b-26ffa2138881.png",
+            "categName": "数码",
+            "cid": "6"
+          },
+          {
+            "logoImg": "http://img.allpyra.com/b38fb9e6-5491-4f7d-869f-114f40623c07.png",
+            "categName": "箱包",
+            "cid": "9"
+          },
+          {
+            "logoImg": "http://img.allpyra.com/5ede0456-bae8-4953-9855-a09cc41d8734.png",
+            "categName": "配饰",
+            "cid": "10"
+          }
+        ],
+        "linkName": "",
+        "styleTitle": "首页分类样式二"
+      },
+      {
+        "sequence": 4,
+        "margin": "5",
+        "titleEn": "",
+        "pprd": "",
+        "link": "",
+        "pageStyleId": 5,
+        "styleCode": "vertical_acts",
+        "title": "海拼团",
+        "list": [
+          {
+            "activityName": "海拼团专题活动",
+            "bannerImg": "https://img.allpyra.com/f978f949-3ec7-4b6c-81ff-08e24eb1d193.jpg",
+            "actLink": "http://m.asj.com/groupon.html?ptag=23013.6.2&appJson={%22type%22:130}#!/list"
+          }
+        ],
+        "linkName": "",
+        "styleTitle": "一行一个专题活动"
+      },
+      {
+        "sequence": 5,
+        "actInfo": [
+        ],
+        "margin": "5",
+        "titleEn": "",
+        "pprd": "",
+        "link": "",
+        "pageStyleId": 5,
+        "styleCode": "vertical_acts",
+        "title": "精选专题",
+        "list": [
+          {
+            "activityName": "精明辣妈 必屯精品",
+            "bannerImg": "https://img.allpyra.com/9856dc17-4d2b-480e-8b30-d64562386ac4.jpg",
+            "actLink": "http://m.asj.com/lp/customer/index.html?actid=1702171630090013#!/index/1702171630090013/1"
+          }
+        ],
+        "linkName": "",
+        "styleTitle": "一行一个专题活动"
+      },
+      {
+        "sequence": 6,
+        "actInfo": [
+        ],
+        "margin": "5",
+        "titleEn": "",
+        "pprd": "",
+        "link": "",
+        "pageStyleId": 9,
+        "styleCode": "product_list_slide",
+        "title": "",
+        "list": [
+         {
+            "activityName": "",
+            "bannerImg": "https://img.allpyra.com/2fa38763-eeb6-4475-a3bc-5f1d757e1596.jpg",
+            "price": "69"
+          },
+          {
+            "activityName": "",
+            "bannerImg": "https://img.allpyra.com/2eac910e-6905-4b92-af51-9197a3bc7308.jpg",
+            "price": "56"
+          },
+          {
+            "activityName": "",
+            "bannerImg": "https://img.allpyra.com/e55b3b67-0564-42d7-9cd2-17d88684d2f0.jpg",
+            "price": "89"
+          }
+        ],
+        "linkName": "",
+        "styleTitle": "横向可滑动多个商品"
+      },
+      {
+        "sequence": 7,
+        "actInfo": [
+        ],
+        "margin": "",
+        "titleEn": "",
+        "pprd": "",
+        "link": "",
+        "pageStyleId": 5,
+        "styleCode": "vertical_acts",
+        "title": "",
+        "list": [
+          {
+            "activityName": "新春话养生",
+            "bannerImg": "https://img.allpyra.com/0f3eacc5-a05a-4167-9ab8-9ace995ed050.jpg",
+            "actLink": "http://m.asj.com/lp/customer/index.html?actid=1702171636370014#!/index/1702171636370014/1"
+          }
+        ],
+        "linkName": "",
+        "styleTitle": "一行一个专题活动"
+      },
+      {
+        "sequence": 8,
+        "actInfo": [
+        ],
+        "margin": "",
+        "titleEn": "",
+        "pprd": "",
+        "link": "",
+        "pageStyleId": 9,
+        "styleCode": "product_list_slide",
+        "title": "保健热门",
+        "list": [
+          {
+            "activityId": "1703281113080002"
+          }
+        ],
+        "linkName": "",
+        "styleTitle": "横向可滑动多个商品"
+      },
+      {
+        "sequence": 9,
+        "actInfo": [
+        ],
+        "margin": "5",
+        "titleEn": "Hot Events",
+        "pprd": "324ff3",
+        "link": "",
+        "pageStyleId": 5,
+        "styleCode": "vertical_acts",
+        "title": "热门活动",
+        "list": [
+          {
+            "activityName": "baby清洁保卫战",
+            "bannerImg": "https://img.allpyra.com/de6e9bd9-b344-48fa-9cc0-fdf676b66d67.jpg",
+            "actLink": "http://m.asj.com/lp/customer/index.html?actid=1702171656130022#!/index/1702171656130022/1"
+          }
+        ],
+        "linkName": "",
+        "styleTitle": "一行一个专题活动"
+      },
+      {
+        "sequence": 10,
+        "actInfo": [
+        ],
+        "margin": "",
+        "titleEn": "",
+        "pprd": "",
+        "link": "",
+        "pageStyleId": 10,
+        "styleCode": "horizontal_slide_act",
+        "title": "",
+        "list": [
+          {
+            "activityName": "",
+            "bannerImg": "https://img.allpyra.com/5e67a190-c6a9-4355-b709-6da06e063c72.jpg",
+            "actLink": ""
+          },
+          {
+            "activityName": "",
+            "bannerImg": "https://img.allpyra.com/caf116b5-6aaf-42a8-bd50-28fef6e021ea.jpg",
+            "actLink": ""
+          },
+          {
+            "activityName": "",
+            "bannerImg": "https://img.allpyra.com/55516de1-c4bf-469e-b161-e11ab9ceb7ff.jpg",
+            "actLink": ""
+          }
+        ],
+        "linkName": "",
+        "styleTitle": "可横向滑动专题活动"
+      },
+      {
+        "sequence": 11,
+        "actInfo": [
+        ],
+        "margin": "",
+        "titleEn": "",
+        "pprd": "",
+        "link": "",
+        "pageStyleId": 6,
+        "styleCode": "product_list_rows",
+        "title": "热门商品",
+        "list": [
+          {
+            "activityId": "1702171702250023"
+          }
+        ],
+        "linkName": "",
+        "styleTitle": "一行两个商品列表"
+      }
+    ]
+  }
+}
