@@ -1,0 +1,107 @@
+{
+    "code": 1000,
+    "data": {
+        "shareTitle": "",
+        "list": [
+            {
+                "sequence": 1,
+                "actInfo": [],
+                "margin": "",
+                "titleEn": "",
+                "pprd": "",
+                "link": "",
+                "pageStyleId": 101,
+                "styleCode": "static_img",
+                "title": "",
+                "list": [
+                    {
+                        "imgUrl": "https://img.allpyra.com/91e93a7d-d8c8-4a07-a6dd-4f7b748ebd11.jpg",
+                        "actLink": ""
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "静态图片"
+            },
+            {
+                "sequence": 2,
+                "actInfo": [],
+                "margin": "",
+                "titleEn": "",
+                "pprd": "",
+                "link": "",
+                "pageStyleId": 101,
+                "styleCode": "static_img",
+                "title": "",
+                "list": [
+                    {
+                        "imgUrl": "https://img.allpyra.com/bfb34b79-bae5-4a6c-b91e-713810acafe6.jpg",
+                        "actLink": ""
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "静态图片"
+            },
+            {
+                "sequence": 3,
+                "actInfo": [],
+                "margin": "",
+                "titleEn": "",
+                "pprd": "",
+                "link": "",
+                "pageStyleId": 117,
+                "styleCode": "theme_templet",
+                "title": "",
+                "list": [
+                    {
+                        "imgUrl": "",
+                        "activityId": "1707131507590017"
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "商品列表（方框版）"
+            },
+            {
+                "sequence": 4,
+                "actInfo": [],
+                "margin": "",
+                "titleEn": "",
+                "pprd": "",
+                "link": "",
+                "pageStyleId": 101,
+                "styleCode": "static_img",
+                "title": "",
+                "list": [
+                    {
+                        "imgUrl": "https://img.allpyra.com/b8632aa8-a9b8-4531-b170-d0a5320154d6.jpg",
+                        "actLink": ""
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "静态图片"
+            },
+            {
+                "sequence": 5,
+                "actInfo": [],
+                "margin": "",
+                "titleEn": "",
+                "pprd": "",
+                "link": "",
+                "pageStyleId": 119,
+                "styleCode": "product_list",
+                "title": "",
+                "list": [
+                    {
+                        "activityId": "1707131509130018"
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "商品列表（不分页版）"
+            }
+        ],
+        "title": "面膜",
+        "shareDesc": "",
+        "shareBanner": ""
+    },
+    "desc": "成功",
+    "tid": "8c509db5-2a48-4c56-95a8-6ce4c5946751"
+}
