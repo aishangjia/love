@@ -14,6 +14,10 @@ import Produce from './views/Produce'
 import PicTer1 from './views/PicTer1'
 import Picter2 from './views/Picter2'
 import Weibo from './views/Weibo'
+import One from './components/One'
+import Two from './components/Two'
+import Catedetail from './components/Catedetail'
+
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter)
@@ -22,7 +26,11 @@ Vue.use(VueAwesomeSwiper)
 
 const routes = [
                  {path: '/home',component:Home},
-                 {path: '/category',component:Category},
+                 {path: '/category',component:Category,children:[
+                   {path:'one',component:One},
+                   {path:'two',component:Two},
+                   {path:'catedetail',component:Catedetail}
+                 ]},
                  {path: '/shopcar',component:Shopcar},
                  {path: '/mine',component:Mine},
                  {path: '/produce',component:Produce},
