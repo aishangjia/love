@@ -80,7 +80,7 @@
           <div class="clear"></div>
           <div v-for="item in item5.simpleBrandList"class="m2">
             <div class="clear"></div>
-            <img :src="item.brandImg"></img>
+            <img v-lazy="item.brandImg"></img>
           </div>
         </div>
       </div>
