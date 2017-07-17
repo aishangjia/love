@@ -13,7 +13,7 @@ import Shopcar from './views/Shopcar'
 import Produce from './views/Produce'
 import PicTer1 from './views/PicTer1'
 import Picter2 from './views/Picter2'
-import Weibo from './views/Weibo'
+import Allproduce from './views/Allproduce'
 import One from './components/One'
 import Two from './components/Two'
 import Catedetail from './components/Catedetail'
@@ -36,7 +36,7 @@ const routes = [
                  {path: '/produce',component:Produce},
                  {path: '/picTer1',component:PicTer1},
                  {path: '/picter2',component:Picter2},
-                 {path: '/weibo',component:Weibo},
+                 {path: '/allproduce',component:Allproduce},
                 ]
 const router = new VueRouter({
             routes

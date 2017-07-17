@@ -2,9 +2,11 @@
 	<div id="produce">
   		 <div class="topPicter">
 		 	  <ul >
-		 	  	    <li v-for="item in arr1">			 	  	   	
+		 	  	    <li v-for="item in arr1">
+		 	  	    	<router-link to = '/Allproduce'>
 			 	  	   <img :src="item.logourl" />
 			 	  	   <p>{{item.categName}}</p>
+			 	  	   </router-link>
 		 	  	   </li>
 		 	  </ul>
 		 </div>

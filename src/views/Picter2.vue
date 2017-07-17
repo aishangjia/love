@@ -3,7 +3,7 @@
 	   	<div class="banner clear">
 	   		<ul class="oul3">
 		   		<li><router-link to ='/PicTer1'><i class="fa fa-chevron-circle-left fa-3x"></i></router-link></li>
-		   		<li v-on:click ='changebg'><i class="fa fa-share-alt-square fa-3x"></i></li>
+		   		<li v-on:click ='changebg()'><i class="fa fa-share-alt-square fa-3x"></i></li>
 	   		</ul>
 	   	  <swiper :options="swiperOption" ref="mySwiper">
 		    <!-- slides -->
@@ -45,6 +45,7 @@
 	 
 	 <!--回到顶部的标签-->	 
 	<div id="bgtop" v-on:click="backTop"><img src="../assets/5.png"/></div>
+	
 	<div id="bot">
 		<ul>
 			 <li><a><img src="../assets/6.png"/></a></li>
@@ -53,34 +54,32 @@
 			 <li><a><img src="../assets/7.png"/></a></li>
 		</ul>	  
 	</div>
-	
-	<!--<div id="weibo"></div>-->
-	 
-	 
+<!--背景颜色-->	 
+<div id="weibo"></div>
 </div>
+
 </template>
 
 <script>
 	//	轮播图插件
 	import { swiper, swiperSlide } from 'vue-awesome-swiper'
 	   export default{
-	   	       name: 'picter2',
+	   	       name: 'picter2',	    	
 	   	       //  回到顶部
 	    methods:{
-			   backTop(){
-			    		$('body').animate({scrollTop:0},700)                       
-			    	},
-			    	
-//			    	changebg:function(){
-//			    		 $('#weibo').css({
-//			    		 	    backgroundColor='red';
-//			    		 })
-//			    	}
-			  },
+				backTop(){
+		    		$('body').animate({scrollTop:0},700)                       
+		    	},
   
-	   	       data(){
-	   	       	  return{
-	   	       	  	        swiperOption: {
+//	    	changebg:function(){			    		 
+//	    		 	  document.querySelector('#weibo').setAttribute('style', 'background: #808080')
+//	         	},			    	
+
+        },
+  
+	data(){
+	   	 return{
+	   	swiperOption: {
           notNextTick: true,
           // swiper configs 所有的配置同swiper官方api配置
          autoplay: 500,
@@ -135,7 +134,7 @@
 .banner .oul3 li:first-child{padding-left: 5%;}
 .banner .oul3 li i{padding-top: 8px;}
 .textnode{width: 100%;height: 90px;}
-.textnode h2{width: 100%;height:30px;border-bottom: 1px solid #ccc;text-align: center;padding-left: 5%;}
+.textnode h2{width: 100%;height:30px;border-bottom: 1px solid #ccc;text-align: center;padding-left: 5%;white-space:nowrap;}
 .textnode h1{padding-left: 8%;float: left;padding-top: 10px;}
 .textnode p{float: left;padding-top: 20px;}
 .textnode p span{text-decoration:line-through;padding-right: 15px;}
@@ -163,8 +162,9 @@
 #bot ul li{width: 25%;text-align: center;float: left;font-size: 20px;}
 #bot ul li:first-child{padding-top: 20px;}
 #bot ul li:last-child{padding-top: 20px;}
-#bot ul li:nth-child(2){background: red;}
-#bot ul li:nth-child(3){background: black;}
+/*将a标签打成快才可以进行宽和高设计*/
+#bot ul li:nth-child(2) a{background: red; width: 90%;height: 50px;line-height:50px;display: block;margin-top: 10px;}
+#bot ul li:nth-child(3) a{background: black; width: 90%;height: 50px;line-height:50px;display: block;margin-top: 10px;}
 #bot ul li a{color: #ffffff;}
 
 
