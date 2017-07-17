@@ -5,9 +5,11 @@
 </template>
 
 <script>
+/*  import { Indicator } from 'mint-ui'
+  import 'mint-ui/lib/style.css'*/
   export default{
-    name:'shopcar',
-  }
+          name:'shopcar',
+       }
 </script>
 
 <style scoped>
