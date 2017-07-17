@@ -59,20 +59,6 @@
                                               console.log("正在前往个人中心页面");
                                        }
 
-//                              if(this.tel === "13566666666" && this.password === "666666"){
-//                                     console.log("登录成功");
-
-                             /* var obj = {text:this.tel,text:this.password};
-                              var login_a = JSON.parse(localStorage.getItem('tel'));
-                              if(!login_a){
-                              var login_a=[];
-                              }
-                              login_a.unshift(obj);
-                              /!*把json对象转成字符串，便于localstroage存储*!/
-                              localStorage.setItem('tel',JSON.stringify(login_a));
-                              this.$router.push({path:'/person',component:Person});*/
-//                                         this.$router=({path:'/person',component:Person});
-//                                      }
 
                          }
             }

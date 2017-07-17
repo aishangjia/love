@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <div id="tab">
-        <ul>
+      <div id="tab">
+         <ul>
              <li><router-link to="/home" class="response" v-show="!showCommentInput"  @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-home"></i>首页</a></router-link></li>
              <li><router-link to="/category" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-bars"></i>分类照片</a></router-link></li>
              <li><router-link to="/shopcar" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-shopping-cart"></i>购物车</a></router-link></li>
              <li><router-link to="/login" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-user"></i>我的</a></router-link></li>
         </ul>
   </div>
+  </div>
 </template>
+
 <script>
    import { Indicator } from 'mint-ui'
    export default {

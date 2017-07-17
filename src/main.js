@@ -1,6 +1,5 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-//首字母大写
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import  VueResource from 'vue-resource'
@@ -29,34 +28,34 @@ import Two from './components/Two'
 import Catedetail from './components/Catedetail'
 
 
-  Vue.use(Mint)
-  Vue.use(Indicator)
-  Vue.config.productionTip = false
-  Vue.use(VueRouter)
-  Vue.use(VueResource)
-  Vue.component(Field.name, Field)
-Vue.use(VueAwesomeSwiper)
-Vue.use(VeeValidate, config)
+   Vue.use(Mint)
+   Vue.use(Indicator)
+   Vue.config.productionTip = false
+   Vue.use(VueRouter)
+   Vue.use(VueResource)
+   Vue.component(Field.name, Field)
+   Vue.use(VueAwesomeSwiper)
+   Vue.use(VeeValidate, config)
 // Vue.use(Field)
 const config = {
-  errorBagName: 'errors', // change if property conflicts.
-  fieldsBagName: 'fields',
-  delay: 0,
-  locale: 'en',
-  dictionary: null,
-  strict: true,
-  enableAutoClasses: false,
+                  errorBagName: 'errors', // change if property conflicts.
+                  fieldsBagName: 'fields',
+                  delay: 0,
+                  locale: 'en',
+                  dictionary: null,
+                  strict: true,
+                  enableAutoClasses: false,
   classNames: {
-    touched: 'touched', // the control has been blurred
-    untouched: 'untouched', // the control hasn't been blurred
-    valid: 'valid', // model is valid
-    invalid: 'invalid', // model is invalid
-    pristine: 'pristine', // control has not been interacted with
-    dirty: 'dirty' // control has been interacted with
-  },
-       events: 'input|blur',
-       inject: true
-};
+                touched: 'touched', // the control has been blurred
+                untouched: 'untouched', // the control hasn't been blurred
+                valid: 'valid', // model is valid
+                invalid: 'invalid', // model is invalid
+                pristine: 'pristine', // control has not been interacted with
+                dirty: 'dirty' // control has been interacted with
+             },
+            events: 'input|blur',
+            inject: true
+    };
 const routes = [
                  {path: '/home',component:Home},
                  {path: '/category',component:Category,children:[
@@ -65,13 +64,13 @@ const routes = [
                    {path:'catedetail',component:Catedetail}
                  ]},
                  {path: '/shopcar',component:Shopcar},
-                 {path: '/mine',component:Mine},
-  {path:'/regesit',component:Regesit},
-  {path:'/repwd',component:Repwd},
-  {path:'/login',component:Login},
-  {path:'/findPassword',component:FindPassword},
-  {path:'/person',component:Person},
-  {path: '/',redirect: '/home'},
+              /*   {path: '/mine',component:Mine},*/
+                  {path:'/regesit',component:Regesit},
+                  {path:'/repwd',component:Repwd},
+                  {path:'/login',component:Login},
+                  {path:'/findPassword',component:FindPassword},
+                  {path:'/person',component:Person},
+                  {path: '/',redirect: '/home'},
                  {path: '/produce',component:Produce},
                  {path: '/picTer1',component:PicTer1},
                  {path: '/picter2',component:Picter2},
@@ -81,7 +80,6 @@ const router = new VueRouter({
                                  routes
                                })
 
-/* eslint-disable no-new */
 new Vue({
     el: '#app',
     router,
