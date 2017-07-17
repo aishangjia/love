@@ -1,6 +1,7 @@
 <template>
 <div id="detail">
 <div class="app-text"></div>
+  <router-view></router-view>
   <div class="main"><router-link to="/category"><a><i class="fa fa-chevron-left"></i></a></router-link>{{catedetail.name}}</div>
   <ul class="main-list">
     <li>综合</li>
@@ -12,7 +13,7 @@
     <ul>
 
       <li v-for="item in arr">
-        <div @click="jumpcateshop(arr)">
+        <div @click="jumpcateshop(item)">
           <div class="clear"></div>
         <div class="shopimg">
           <img v-lazy="item.itemImgUrl">
@@ -50,7 +51,7 @@
     jumpcateshop: function (obj) {
       localStorage.setItem('cateshop', JSON.stringify(obj));
       console.log(180, obj)
-      this.$router.push('/catedetail/cateshop');
+      this.$router.push('/category/catedetail/cateshop');
 
     }
   }

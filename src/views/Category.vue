@@ -67,7 +67,6 @@
         </div>
       </div>
     </div>
-    <router-view></router-view>
     <div id="catepingpai"v-show="ca2">
       <div class="header">
         <router-link to="/category/one"><button>全部品牌</button></router-link>
