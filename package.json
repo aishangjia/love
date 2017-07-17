@@ -12,7 +12,11 @@
   "dependencies": {
     "mint-ui": "^2.2.7",
     "vue": "^2.3.3",
+<<<<<<< HEAD
     "vue-input-code": "^1.2.3",
+=======
+    "vue-awesome-swiper": "^2.5.4",
+>>>>>>> 935562047a8405b0f01a90c97a714d824c818a88
     "vue-router": "^2.3.1"
   },
   "devDependencies": {

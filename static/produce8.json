@@ -1,0 +1,40 @@
+{
+    "code": 1000,
+    "data": {
+        "activityBeginTime": null,
+        "activityEndTime": null,
+        "activityLinkUrl": null,
+        "activityPrice": null,
+        "activityType": null,
+        "attrList": [],
+        "brandId": null,
+        "country": null,
+        "deliveryTime": "预计10日内到达",
+        "imageList": [
+            "https://img.allpyra.com/ebd11a7e-167d-4714-bab8-c68a07ccedc6.jpg",
+            "https://img.allpyra.com/ef016334-6e01-40e8-8b3c-4f8dbbe839d5.jpg"
+        ],
+        "inventory": 282,
+        "iscollectitem": null,
+        "itemCode": "DIM161121102125001016",
+        "itemCount": null,
+        "itemTitle": "Mediheal美迪惠尔 N.M.F针剂水库面膜10片*4盒",
+        "itemType": "PLUSUIT",
+        "marketPrice": 389,
+        "maxBuyCount": 10,
+        "productCode": "",
+        "putAway": "UP",
+        "recommend": "韩国超人气医学美容面膜，为肌肤注入满满一瓶针剂精华。15分钟肌肤解渴，还你水漾容颜",
+        "salePrice": 269,
+        "salesPromotion": [],
+        "single": "N",
+        "taxdesc": "该商品仅适于自用，不得进行转售",
+        "upc": null,
+        "useCoupon": "Y",
+        "warehouseCode": "202",
+        "warehouseName": "海外直邮",
+        "warehousing": "8"
+    },
+    "desc": "成功",
+    "tid": "e915d072-fc32-40be-aeda-363fa4c395f3"
+}

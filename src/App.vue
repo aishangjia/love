@@ -8,11 +8,10 @@
              <li><router-link to="/shopcar" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-shopping-cart"></i>购物车</a></router-link></li>
              <li><router-link to="/login" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-user"></i>我的</a></router-link></li>
         </ul>
-    </div>
   </div>
 </template>
 <script>
-   import { Indicator } from 'mint-ui';
+   import { Indicator } from 'mint-ui'
    export default {
   name: 'app',
            data(){
@@ -33,13 +32,14 @@
 </script>
 
 
+<!--应用样式-->
 <style src="./assets/reset.css"></style>
 <style>
 #app{
          font-family: 'Avenir', Helvetica, Arial, sans-serif;
          -webkit-font-smoothing: antialiased;
          -moz-osx-font-smoothing: grayscale;
-         text-align: center;
+         /*text-align: center;*/
          color: #2c3e50;
          /*  margin-top: 60px;*/
         }
