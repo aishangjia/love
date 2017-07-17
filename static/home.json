@@ -157,10 +157,6 @@
         "styleCode": "product_list_slide",
         "title": "",
         "list": [
-<<<<<<< HEAD
-          {
-            "activityId": "1703281107330001"
-=======
          {
             "activityName": "",
             "bannerImg": "https://img.allpyra.com/2fa38763-eeb6-4475-a3bc-5f1d757e1596.jpg",
@@ -175,7 +171,6 @@
             "activityName": "",
             "bannerImg": "https://img.allpyra.com/e55b3b67-0564-42d7-9cd2-17d88684d2f0.jpg",
             "price": "89"
->>>>>>> 935562047a8405b0f01a90c97a714d824c818a88
           }
         ],
         "linkName": "",
