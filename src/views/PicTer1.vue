@@ -28,10 +28,10 @@
 			 	  	   <div class="img-at-right clear"  v-if="index % 2 == 1">
 				 	  	   	<img :src="item.itemLogoUrl"  class="right"/>
 				 	  	   	<div class="left">
-				 	  	   		<p>{{item.itemTitle}}</p>
-					 	  	   <p>{{item.recommend}}</p>
-					 	  	   <p>￥{{item.salePrice}}</p>
-					 	  	   <p><router-link to = '/Picter2'>立即购买</router-link></p>
+					 	  	   		<p>{{item.itemTitle}}</p>
+						 	  	   <p>{{item.recommend}}</p>
+						 	  	   <p>￥{{item.salePrice}}</p>
+						 	  	   <p ><router-link to = '/Picter2'>立即购买</router-link></p>
 				 	  	   	</div>
 			 	  	   </div>   				 	  	   
 		 	  	   </li>		 	  	  		 	  	   
@@ -75,10 +75,13 @@
 	  	      	 	arr3:[],
 	  	      	    arr4:[],
 	  	      	    arr5:[],
+	  	      	    aa:[],
 	  	      	 }
+	  	           
+			localStorage.setItem('title','value1');
 	  	      },
 	  	      
-	  	      
+	  	
 			mounted(){				  	      	      					
 				this.$http.get('static/picter1.json').then(function(res){
 //					                console.log(res);
@@ -90,19 +93,19 @@
 				  this.$http.get('static/produce5.json').then(function(res){
 //				  	              console.log(res);
 				  	   this.arr3 =  res.body.data.list
-//				  	           console.log(this.arr3);
+				  	           console.log(this.arr3);
 				  })
 				  	      	      	
 				  this.$http.get('static/produce6.json').then(function(res){
 				  	              console.log(res);
 				  	   this.arr5 =  res.body.data.list
 				  	           console.log(this.arr5);
-				  })				  	      	      	
-				  	      	      	
-				  	      	      	
-				  	      	      	
-				  	    })
-		    }
+				  })	
+				  
+			 })
+		}
+			
+
 	  }
 </script>
          
@@ -140,7 +143,7 @@
 #oul li:nth-child(10) .left p:first-child{padding-top: 50px;}
 #topPic2{width: 100%;}
 #topPic2 li img{width: 100%;}
-.producePic{width: 100%;}
+.producePic{width: 100%;margin-bottom: 50px;}
 .producePic ul{width: 100%;}
 .producePic ul li{width: 50%;float: left;font-size: 15px;border: 1px solid #eeeeee;}
 .producePic ul li img{width: 100%;}

@@ -181,8 +181,7 @@
       
     
 		     mounted(){
-		       this.$http.get('static/home.json').then(function(res){		          
-//		               console.log(res);
+		       this.$http.get('static/home.json').then(function(res){	
 		               this.arr1 = res.body.data.list[1].list;
 		               this.arr2= res.body.data.list[2].list;
 		               this.arr3= res.body.data.list[3].list;		               
@@ -190,7 +189,7 @@
 		               this.arr5= res.body.data.list[5].list;
 		               this.arr6= res.body.data.list[4].list;
 		               this.arr7= res.body.data.list[7].list;
-//		                      console.log(this.arr7)
+		                      console.log(this.arr1)
 		      })
 		       
 		       this.$http.get('static/produce.json').then(function(res){

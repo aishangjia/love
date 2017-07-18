@@ -1,7 +1,8 @@
 <template>
 <div id="detail">
 <div class="app-text"></div>
-  <div class="main"><a><i class="fa fa-chevron-left"></i></a>{{catedetail.name}}</div>
+  <router-view></router-view>
+  <div class="main"><router-link to="/category"><a><i class="fa fa-chevron-left"></i></a></router-link>{{catedetail.name}}</div>
   <ul class="main-list">
     <li>综合</li>
     <li>折扣</li>
@@ -10,15 +11,19 @@
   </ul>
   <div class="main-detail">
     <ul>
+
       <li v-for="item in arr">
+        <div @click="jumpcateshop(item)">
+          <div class="clear"></div>
         <div class="shopimg">
-          <img :src="item.itemImgUrl">
+          <img v-lazy="item.itemImgUrl">
         </div>
         <h4>{{item.itemTitle}}</h4>
         <div class="Shopprice"><span class="left">￥{{item.itemCurPrice}}</span>
           <span class="right"><i class="i1">{{item.discount}}折</i><i class="i2">￥{{item.itemOriPrice}}</i></span>
           <div class="clear"></div></div>
         <p class="shoporigin"><img :src="item.countryImgUrl"/>{{item.shopName}}</p>
+        </div>
       </li>
     </ul>
   </div>
@@ -37,12 +42,19 @@
     mounted(){
         this.catedetail = JSON.parse(localStorage.getItem('catedetail'));
         console.log(17,this.catedetail);
-        console.log(this.catedetail.childCategoryId)
+        console.log(this.catedetail.childCategoryId);
         this.$http.get('https://h5api.zhefengle.cn/search/item_search_ext.html?secondCate='+this.catedetail.childCategoryId+'&maskKey='+this.catedetail.maskKey).then(function (res) {
           console.log( res.body.model.searchList)
           this.arr = res.body.model.searchList;
         })
+    }, methods: {
+    jumpcateshop: function (obj) {
+      localStorage.setItem('cateshop', JSON.stringify(obj));
+      console.log(180, obj)
+      this.$router.push('/category/catedetail/cateshop');
+
     }
+  }
 
   }
 </script>

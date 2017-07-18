@@ -1,12 +1,30 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
+    <router-view></router-view>    
+   <div id="tab">
+        <!--<ul>
+             <li><router-link to="/home"><a href=""><i class="fa fa-home"></i>首页</a></router-link></li>
+             <li><router-link to="/category"><a href=""><i class="fa fa-bars"></i>分类照片</a></router-link></li>
+             <li><router-link to="/shopcar"><a href=""><i class="fa fa-shopping-cart"></i>购物     车</a></router-link></li>
+             <li><router-link to="/mine"><a href=""><i class="fa fa-user"></i>我的</a></router-link></li>
     <router-view></router-view>
+      <div id="tab">-->
+=======
+
+    <router-view></router-view>
+
       <div id="tab">
+>>>>>>> ce615270c2a7c2592e1a51c3e03568bd17d6072e
          <ul>
              <li><router-link to="/home" class="response" v-show="!showCommentInput"  @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-home"></i>首页</a></router-link></li>
              <li><router-link to="/category" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-bars"></i>分类照片</a></router-link></li>
              <li><router-link to="/shopcar" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-shopping-cart"></i>购物车</a></router-link></li>
              <li><router-link to="/login" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-user"></i>我的</a></router-link></li>
+<<<<<<< HEAD
+=======
+
+>>>>>>> ce615270c2a7c2592e1a51c3e03568bd17d6072e
         </ul>
   </div>
   </div>

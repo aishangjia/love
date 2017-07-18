@@ -24,12 +24,19 @@ import VeeValidate from 'vee-validate';
 import Produce from './views/Produce'
 import PicTer1 from './views/PicTer1'
 import Picter2 from './views/Picter2'
-import Weibo from './views/Weibo'
+import Allproduce from './views/Allproduce'
 import One from './components/One'
 import Two from './components/Two'
 import gerenInf from './views/gerenInf'
 import Catedetail from './components/Catedetail'
+import Vuelazyload from 'vue-lazyload'
+import Cateshop from './components/Cateshop'
 
+
+Vue.config.productionTip = false
+Vue.use(VueRouter)
+Vue.use(VueResource)
+Vue.use(Vuelazyload)
 
    Vue.use(Mint)
    Vue.use(Indicator)
@@ -59,12 +66,15 @@ const config = {
             events: 'input|blur',
             inject: true
     };
+
 const routes = [
                  {path: '/home',component:Home},
                  {path: '/category',component:Category,children:[
                    {path:'one',component:One},
                    {path:'two',component:Two},
-                   {path:'catedetail',component:Catedetail}
+                   {path:'catedetail',component:Catedetail,children:[
+                     {path:'cateshop',component:Cateshop}
+                   ]}
                  ]},
                  {path: '/shopcar',component:Shopcar},
               /*   {path: '/mine',component:Mine},*/
@@ -76,15 +86,24 @@ const routes = [
                   {path:'/findPassword',component:FindPassword},
                   {path:'/person',component:Person},
                   {path: '/',redirect: '/home'},
+<<<<<<< HEAD
                    {path: '/gerenInf',component:gerenInf},
                    {path: '/produce',component:Produce},
                    {path: '/picTer1',component:PicTer1},
                    {path: '/picter2',component:Picter2},
                   {path: '/weibo',component:Weibo},
+=======
+                 {path: '/produce',component:Produce},
+                 {path: '/picTer1',component:PicTer1},
+                 {path: '/picter2',component:Picter2},
+                 {path: '/allproduce',component:Allproduce},
+>>>>>>> 310349afe5e0cd478032b4da52c0f378e6e83481
                 ]
 const router = new VueRouter({
-                                 routes
-                               })
+
+  routes,
+
+          })
 
 new Vue({
     el: '#app',
