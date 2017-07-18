@@ -3,8 +3,8 @@
        }
 .wrap{width:100%;padding-top: 135px}
 .loginInf{width: 80%;height:220px;margin:0 auto;}
-.loginInf i{font-size: 20px;display: block;position: absolute;left: 50px;  margin-top:20px;}
-.loginInf i:nth-child(3){font-size: 20px;display: block;position: absolute;left:50px;top:50px;padding-top: 135px}
+.loginInf i{font-size: 20px;display: block;position: absolute;left:50px;margin-top:20px;}
+.loginInf i:nth-child(3){font-size: 20px;display: block;position: absolute;left:50px;top:60px;padding-top: 135px;}
 input[type = text]{width:100%;height:40px;border: none;border-bottom: 1px solid lightgray;margin-top:10px;padding-left:25px;}
 .regesit{width:100%;height: 46px;}
 .regesit span:first-child{font-size: 14px;float: left}

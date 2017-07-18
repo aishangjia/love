@@ -74,6 +74,7 @@
             }
   .index{width: 80%;margin: 0 auto;padding-top: 230px;}
    input{text-indent: 20px;width:90%;height: 40px;display: block;margin: 5px auto}
+   input[type=text]{height: 44px;}
    i{position: absolute;left:16%;margin-top:14px;font-size:16px;}
    #tab{display: none}
 

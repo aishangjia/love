@@ -31,6 +31,7 @@ import gerenInf from './views/gerenInf'
 import Catedetail from './components/Catedetail'
 import Vuelazyload from 'vue-lazyload'
 import Cateshop from './components/Cateshop'
+import Weibo from './views/Weibo'
 
 
 Vue.config.productionTip = false
@@ -86,18 +87,15 @@ const routes = [
                   {path:'/findPassword',component:FindPassword},
                   {path:'/person',component:Person},
                   {path: '/',redirect: '/home'},
-<<<<<<< HEAD
                    {path: '/gerenInf',component:gerenInf},
                    {path: '/produce',component:Produce},
                    {path: '/picTer1',component:PicTer1},
                    {path: '/picter2',component:Picter2},
                   {path: '/weibo',component:Weibo},
-=======
                  {path: '/produce',component:Produce},
                  {path: '/picTer1',component:PicTer1},
                  {path: '/picter2',component:Picter2},
-                 {path: '/allproduce',component:Allproduce},
->>>>>>> 310349afe5e0cd478032b4da52c0f378e6e83481
+                 {path: '/allproduce',component:Allproduce}
                 ]
 const router = new VueRouter({
 
