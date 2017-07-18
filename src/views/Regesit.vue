@@ -69,10 +69,12 @@
 
        }
 </script>
-<style scoped>
-
-  .person{width: 100%;height:800px;background: lightgrey}
+<style>
+  .person{width:100%;height:100%;background:url("../../static/img/img_login_bg.png") no-repeat;background-size:100% 100%;z-index:200;
+            }
   .index{width: 80%;margin: 0 auto;padding-top: 230px;}
    input{text-indent: 20px;width:90%;height: 40px;display: block;margin: 5px auto}
-   i{position: absolute;left:8%;margin-top:14px;font-size:16px;}
+   i{position: absolute;left:16%;margin-top:14px;font-size:16px;}
+   #tab{display: none}
+
 </style>

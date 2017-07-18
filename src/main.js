@@ -14,6 +14,8 @@ import Repwd from './views/Repwd'
 import FindPassword from './views/FindPassword'
 import Person from './views/Person'
 import Shopcar from './views/Shopcar'
+import Amend from './views/Amend'
+import Address from './views/Address'
 import Mint from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import {Indicator} from 'mint-ui'
@@ -25,6 +27,7 @@ import Picter2 from './views/Picter2'
 import Weibo from './views/Weibo'
 import One from './components/One'
 import Two from './components/Two'
+import gerenInf from './views/gerenInf'
 import Catedetail from './components/Catedetail'
 
 
@@ -68,13 +71,16 @@ const routes = [
                   {path:'/regesit',component:Regesit},
                   {path:'/repwd',component:Repwd},
                   {path:'/login',component:Login},
+                  {path:'/amend',component:Amend},
+                  {path:'/address',component:Address},
                   {path:'/findPassword',component:FindPassword},
                   {path:'/person',component:Person},
                   {path: '/',redirect: '/home'},
-                 {path: '/produce',component:Produce},
-                 {path: '/picTer1',component:PicTer1},
-                 {path: '/picter2',component:Picter2},
-                 {path: '/weibo',component:Weibo},
+                   {path: '/gerenInf',component:gerenInf},
+                   {path: '/produce',component:Produce},
+                   {path: '/picTer1',component:PicTer1},
+                   {path: '/picter2',component:Picter2},
+                  {path: '/weibo',component:Weibo},
                 ]
 const router = new VueRouter({
                                  routes

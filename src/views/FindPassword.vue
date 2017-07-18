@@ -46,9 +46,11 @@
 </script>
 
 <style>
-  .forget{width: 100%;height:800px;background: lightgrey}
-  .index{width: 80%;margin: 0 auto;padding-top: 230px;position: fixed;left:10%}
-  input{text-indent: 20px;width:90%;height: 40px;display: block;margin: 5px auto}
-  i{position: absolute;left:10%;margin-top:16px;font-size:20px;}
+    .forget{width: 100%;height:100%;background:url("../../static/img/img_login_bg.png") no-repeat;
+      background-size: 100% 100%;z-index:200;}
+    .index{width:80%;margin:0 auto;padding-top: 230px;position: fixed;left:10%}
+    input{text-indent: 20px;width:100%;height: 40px;display: block;margin:5px auto}
+    input[type=text]{display:inline-block; position: relative;}
+    i:nth-child(1),i:nth-child(3){position:absolute;left:10px;margin-top:16px;font-size:20px;z-index: 20}
    #tab{display: none}
 </style>

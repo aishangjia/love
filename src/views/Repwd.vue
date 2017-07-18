@@ -1,7 +1,7 @@
 <template>
     <div id="xinxi">
-       <mt-field label="密码" placeholder="请设置新密码（6-16位）" v-model="npwd" state="error"></mt-field>
-       <mt-field label="密码" placeholder="请再次确认输入密码"  v-model="password" state="error"></mt-field>
+       <mt-field label="密码" placeholder="请设置新密码（6-16位）" v-model="npwd"></mt-field>
+       <mt-field label="密码" placeholder="请再次确认输入密码"  v-model="password"></mt-field>
        <mt-checklist v-model="server" :options="['爱尚家服务条款']"></mt-checklist>
        <mt-button size="large" @click="over">完成</mt-button>
     </div>
