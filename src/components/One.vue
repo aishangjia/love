@@ -1,9 +1,10 @@
 <template>
   <div id="one">
- <ul class="tablist"><li v-for="item in arr"><a href="javascript:void(0)">{{item.key}}</a></li></ul>
-    <div class="main"v-for="item2 in arr">
+ <ul class="tablist"><li v-for="item in arr">
+   <a href="javascript:void(0)" @click="goAnchor('#anchor-'+item.key)">{{item.key}}</a></li></ul>
+    <div class="main"v-for="item2 in arr":id="'anchor-'+item2.key">
       <h2>{{item2.key}}</h2>
-      <div v-for="item3 in item2.innerPOJOs"class="shopimg"><a href="javascript:void(0)"><img :src="item3.brandImg"><span class="s1">{{item3.brandName}}</span></a></div>
+      <div v-for="item3 in item2.innerPOJOs"class="shopimg"><a href="javascript:void(0)"><img v-lazy="item3.brandImg"><span class="s1">{{item3.brandName}}</span></a></div>
     </div>
   </div>
 </template>
@@ -27,7 +28,13 @@
         })
 
 
-    },
+    },methods: {
+    goAnchor(selector) {
+
+      document.body.scrollTop = this.$el.querySelector(selector).offsetTop
+    }
+  }
+
   }
 
 </script>
@@ -35,6 +42,7 @@
   #one{position: absolute;right: 0;left:0;bottom:50px;top: 0;background:#fff;;z-index:200;overflow-y: auto}
   .tablist{width: 100%;height: 76px;padding: 16px 0 0 11px;}
   .tablist li{float: left;text-align: center;height: 30px;width:7%;line-height: 30px;}
+  .tablist li a{display: block;width: 100%;height: 100%}
   .main{width: 100%;}
   .main h2{padding-top:2.76px;padding-bottom:2.76px;color: #999;width: 100%;height: 24px;
     line-height: 24px;background:#F2F2F2;text-align: left;padding-left: 5%;}

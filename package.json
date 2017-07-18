@@ -13,8 +13,17 @@
     "mint-ui": "^2.2.7",
     "vee-validate": "^2.0.0-rc.7",
     "vue": "^2.3.3",
+<<<<<<< HEAD
     "vue-awesome-swiper": "^2.5.4",
     "vue-input-code": "^1.2.3",
+=======
+
+    "vue-input-code": "^1.2.3",
+    "vue-awesome-swiper": "^2.5.4",
+
+
+
+>>>>>>> ce615270c2a7c2592e1a51c3e03568bd17d6072e
     "vue-router": "^2.3.1"
   },
   "devDependencies": {

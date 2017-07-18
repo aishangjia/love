@@ -67,7 +67,6 @@
         </div>
       </div>
     </div>
-    <router-view></router-view>
     <div id="catepingpai"v-show="ca2">
       <div class="header">
         <router-link to="/category/one"><button>全部品牌</button></router-link>
@@ -80,7 +79,7 @@
           <div class="clear"></div>
           <div v-for="item in item5.simpleBrandList"class="m2">
             <div class="clear"></div>
-            <img :src="item.brandImg"></img>
+            <img v-lazy="item.brandImg"></img>
           </div>
         </div>
       </div>
