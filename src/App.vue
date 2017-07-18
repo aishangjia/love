@@ -1,22 +1,19 @@
 <template>
   <div id="app">
-<<<<<<< HEAD
     <router-view></router-view>    
    <div id="tab">
-        <ul>
+        <!--<ul>
              <li><router-link to="/home"><a href=""><i class="fa fa-home"></i>首页</a></router-link></li>
              <li><router-link to="/category"><a href=""><i class="fa fa-bars"></i>分类照片</a></router-link></li>
              <li><router-link to="/shopcar"><a href=""><i class="fa fa-shopping-cart"></i>购物     车</a></router-link></li>
              <li><router-link to="/mine"><a href=""><i class="fa fa-user"></i>我的</a></router-link></li>
-=======
     <router-view></router-view>
-      <div id="tab">
+      <div id="tab">-->
          <ul>
              <li><router-link to="/home" class="response" v-show="!showCommentInput"  @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-home"></i>首页</a></router-link></li>
              <li><router-link to="/category" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-bars"></i>分类照片</a></router-link></li>
              <li><router-link to="/shopcar" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-shopping-cart"></i>购物车</a></router-link></li>
              <li><router-link to="/login" class="response" v-show="!showCommentInput" @click="showCommentInput = !showCommentInput"><a href=""><i class="fa fa-user"></i>我的</a></router-link></li>
->>>>>>> 81d133e818fb8ee35f8191a73a9e9c94423ea559
         </ul>
   </div>
   </div>
@@ -53,6 +50,7 @@
          -moz-osx-font-smoothing: grayscale;
          /*text-align: center;*/
          color: #2c3e50;
+         height: 100%;
          /*  margin-top: 60px;*/
         }
 
